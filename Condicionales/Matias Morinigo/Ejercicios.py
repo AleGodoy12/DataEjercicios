@@ -1,33 +1,33 @@
 # 1- Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.
 
-# pregunta = int(input("Ingrese su edad: "))
-# edadMayor = 18
-# if pregunta >= edadMayor:
-#     print("Es mayor de edad")
-# else:
-#     print("No es mayor de edad")
+pregunta = int(input("Ingrese su edad: "))
+edadMayor = 18
+if pregunta >= edadMayor:
+    print("Es mayor de edad")
+else:
+    print("No es mayor de edad")
 
 
 # 2.- Escribir un programa que pida al usuario dos números y muestre por pantalla su división. 
 # Si el divisor es cero el programa debe mostrar un error.
 
-# numero = int(input("Ingrese un numero: "))
-# num = int(input("Ingrese un numero: "))
+numero = int(input("Ingrese un numero: "))
+num = int(input("Ingrese un numero: "))
 
-# if numero / num:
-#     numero /= num
-#     print(numero)
-# else:
-#     ("Error")
+if numero / num:
+    numero /= num
+    print(numero)
+else:
+    ("Error")
 
 # 3.- Escribir un programa que pida al usuario un número entero y muestre por pantalla si es par o impar
 
-# numeroPedi = int(input("Ingrese un numero entero: "))
+numeroPedi = int(input("Ingrese un numero entero: "))
 
-# if numeroPedi % 2 == 0:    #%2 Sirve para comparar si es divisible por 0
-#     print("Es par")
-# else:
-#     print("Es impar")
+if numeroPedi % 2 == 0:    #%2 Sirve para comparar si es divisible por 0
+    print("Es par")
+else:
+    print("Es impar")
 
 
 #  La pizzería Bella Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes.
@@ -59,5 +59,3 @@ if pregunta2 == vege:
     print("Su pizza es vegetariana y su ingredinete es: ", pregunta2)
 else:
     print("Su pizza no es vegetariana y su ingredinte es: ", pregunta2)
-
-
