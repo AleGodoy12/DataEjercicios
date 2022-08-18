@@ -15,8 +15,8 @@
 
 numDni = int(input("Ingrese su numero de DNI: "))
 
-def dni(numDni):                                 # No se me ocurre como hacer que tome si es valido o no
-    if numDni 
+def dni(numDni):                           
+    if (len(str(numDni)) == 8 or (len(str(numDni)) == 7)):
         return True
     else:
         return False

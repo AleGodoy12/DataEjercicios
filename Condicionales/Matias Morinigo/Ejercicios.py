@@ -38,10 +38,10 @@ else:
 # pizzaVege = ["Pimiento y tofu"]
 # pizzaNoVege = ["Peperoni, Jamón y Salmón"]
 
-if pregunta == respuesta :
-    print("Estos son sus ingredientes: ", pizzaVege)
-else: 
-    print("Estos son sus ingredientes: ", pizzaNoVege)
+# if pregunta == respuesta :
+#     print("Estos son sus ingredientes: ", pizzaVege)
+# else: 
+#     print("Estos son sus ingredientes: ", pizzaNoVege)
 
 
 pregunta = input("Quiere una pizza vegetariana o normal ? ")   
